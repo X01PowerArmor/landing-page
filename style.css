@@ -1,0 +1,36 @@
+.headercontainer {
+    padding-right: 150px;
+    color: white;
+    background-color: rgb(26, 40, 105);
+    padding-left: 150px;
+    padding-top: 15px;
+}
+.header {
+    display: flex;
+}
+.font {
+    font-weight: 900px;
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.headlink {
+    margin-left: auto;
+    align-items: end;
+    gap: 15px;
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+}
+.awesome {
+    font-size: 45px;
+}
+.bluecard {
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+    padding-top: 85px;
+    
+}
