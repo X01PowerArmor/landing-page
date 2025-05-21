@@ -1,7 +1,8 @@
 .headercontainer {
+    margin: 0;
     padding-right: 150px;
     color: white;
-    background-color: rgb(26, 40, 105);
+    background-color: rgb(25, 33, 67);
     padding-left: 150px;
     padding-top: 15px;
 }
@@ -16,7 +17,7 @@ a {
     text-decoration: none;
     color: white;
 }
-.headlink {
+.headlink   {
     margin-left: auto;
     align-items: end;
     gap: 15px;
@@ -24,13 +25,107 @@ a {
     list-style-type: none;
     padding-left: 0;
 }
+.sign {
+    border-radius: 10px;
+    padding: 5px 20px;
+    font-size: 18px;
+    border: none;
+    background-color: rgb(48, 118, 216);
+    color: white;
+}
 .awesome {
     font-size: 45px;
+    font-family: H
 }
 .bluecard {
     flex-wrap: wrap;
-    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
     display: flex;
     padding-top: 85px;
+}
+
+.text-section {
+    max-width: 50%;
+}
+.image-section img {
+    max-width: 100%;
+    height: auto;
+}
+.swancard {
+    
+}
+.header-container {
+    margin: 0 250px 0 250px;
+    text-align: center;
+    padding-top: 50px;
+}
+.swancard-container {
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.swancard-container ul {
+    gap: 50px;
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card {
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+    border: 3px solid rgb(38, 114, 143);
+}
+
+.quote-container {
+    padding-bottom: 75px;
+    padding-top: 100px;
+    flex-direction: column;
+    display: flex;
+    background-color: lightgray;
+}
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    text-align: left;
+    margin: 0 250px 0 250px;
+}
+.author {
+    margin: 0 250px 0 250px;
+    font-size: 36px;
+    text-align: right;
+}
+
+.signupcontainer {
+    background-color: rgb(37, 110, 194);
+    margin: 100px 200px 100px 200px;
+    border-radius: 5px;
+    padding: 20px 20px 20px 20px;
+}
+ul {
+    list-style-type: none;
+}
+.signup-button {
+    margin: 25px;
+    text-decoration: none;
+}
+.signup {
+    justify-content: space-between;
+    display: flex;
+    margin-left: auto;
+    color: white;
+    align-items: center;
+}
+.bottom {
+    background-color: rgb(37, 110, 194);
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    border-color: white;
     
 }
